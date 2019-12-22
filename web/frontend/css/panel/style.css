@@ -1,0 +1,120 @@
+@font-face {font-family: "Burbank Small";
+    src: url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.svg#Burbank Small") format("svg"); /* iOS 4.1- */
+  }
+
+h1 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+h2 {
+    margin-left: 10px;
+}
+p {
+    margin-left: 10px;
+    font-family: "Burbank Small";
+}
+h3 {
+    margin-left: 10px;
+}
+
+
+#logo1 {
+    display: block;
+    margin-top: 5px;
+    width: 145px;
+    height: 70px;
+    background: url('/img/cpri.png') 10px -0px no-repeat;
+    text-indent: -9999px;
+    line-height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+#logo1:hover {
+  -webkit-filter: drop-shadow(3px 2px 5px #ffffff);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.panel .btn-logout {
+    font-family: "Burbank Small";
+    margin-left: 800px;
+    margin-top: -50px;
+    pointer-events: all;
+    
+}
+
+.panel .btn-clothing{
+  font-family: "Burbank Small";
+    margin-left: 550px;
+    margin-top: -100px;
+    pointer-events: all;
+}
+
+.panel .btn-furniture{
+  font-family: "Burbank Small";
+  margin-left: 675px;
+  margin-top: -151px;
+    pointer-events: all;
+
+}
+
+.panel{
+    pointer-events: none;
+}
+
+.welcome h3{
+    color:black;
+    font-size: 20px;
+    font-family: "Burbank Small";
+}
+
+a{
+    font-family: "Burbank Small";
+    color: black;
+  }
+
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+#stats{
+    width: 300px; 
+    margin-block-start: -22.50em;
+    margin-block-end: 2.00em;
+    margin-inline-start: -1150px;
+    margin-inline-end: 0px;
+  }
+
+#footer h4 {
+    font-size: 1.4em;
+}
+
+#options a{
+  color: black;
+}
+
+#options a:hover{
+  text-decoration: none;
+}
+
+img[alt="avatar"]{
+    margin-block-start: 1.00em;
+    margin-block-end: 0.00em;
+    margin-inline-start: 735px;
+    width: 120px;
+      padding: 0;
+  }
+
+  #options{
+    width: 100px; 
+    margin-block-start: 0.00em;
+    margin-block-end: 0.00em;
+    margin-inline-start: 600px;
+    margin-inline-end: 0px;
+  }

@@ -1,0 +1,10 @@
+OPTIONS:
+
+    -p => specify a port number
+    -debugger => enable or disable debugging mode by setting to true or false
+    -f => enable or disable file logging by setting to true or false
+    -db => enable or disable database transactions by setting to true or false
+    
+    EXAMPLES:
+        node app -p 17402 => runs the application on port 17402 
+        node app -d false => disables debugging mode

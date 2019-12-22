@@ -1,0 +1,64 @@
+@font-face {font-family: "Burbank Small";
+    src: url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.svg#Burbank Small") format("svg"); /* iOS 4.1- */
+  }
+
+#logo1 {
+    display: block;
+    margin-top: 5px;
+    width: 145px;
+    height: 70px;
+    background: url('/img/cpri.png') 10px -0px no-repeat;
+    text-indent: -9999px;
+    line-height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+#logo1:hover {
+  -webkit-filter: drop-shadow(3px 2px 5px #ffffff);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+a{
+    font-family: "Burbank Small";
+}
+
+#company-title {
+    font-family: "Burbank Small";
+}
+
+#buttons {
+    display: block;
+    margin-top: -20px;
+    width: 395px;
+    height: 375px;
+    background: url('/img/buttons1.gif') 20px 10px no-repeat;
+    text-indent: -9999px;
+    line-height: -10px;
+    position: absolute;
+    top: 5px;
+    left: 550px;
+}
+
+body{
+    background:url('/img/evergreen-background.png') no-repeat scroll 50% 0px #e6e5ef;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+h2 {
+    margin-left: 10px;
+}
+p {
+    margin-left: 10px;
+}
+h3 {
+    margin-left: 10px;
+}

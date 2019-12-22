@@ -1,0 +1,285 @@
+@font-face {font-family: "Burbank Small";
+  src: url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.woff2") format("woff2"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.woff") format("woff"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("https://db.onlinewebfonts.com/t/e6ef295909045a8fb440d1b5f073ed4e.svg#Burbank Small") format("svg"); /* iOS 4.1- */
+}
+
+.create-account, .login, .reset{
+  border-radius: 5px;
+  box-sizing: content-box;
+  margin-block-start: 0.00em;
+  margin-block-end: 0.00em;
+  width: 800px;
+  height: 530px;
+  background-color:#1091DE;
+}
+
+.features {
+  border-radius: 5px;
+  box-sizing: content-box;
+  margin-block-start: 0.00em;
+  margin-block-end: 0.00em;
+  width: 800px;
+  background-color:#1091DE;
+}
+
+
+.alert{
+  margin-block-start: 3.00em;
+  margin-block-end: 1.00em;
+  text-align: center;
+  background-color:#1091DE;
+  border-color: #1091DE;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Burbank Small";
+
+}
+
+h4{
+  font-size: 1rem;
+}
+
+#imgDisp{
+  margin-block-start: -74.00em;
+  margin-block-end: 0.00em;
+  margin-inline-start: 540px;
+  margin-inline-end: 0px;
+  width: 150px;
+  height: 150px;
+}
+
+td, th, a{
+  font-family: "Burbank Small";
+  color: black;
+}
+
+a:visited, a:link{
+  font-family: "Burbank Small";
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+.verify {
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+#colours{
+  width: 300px;
+  height: 330px;
+  margin-block-start: 2.00em;
+  margin-inline-start: -350px;
+}
+
+.panel .back {
+  font-family: "Burbank Small";
+  margin-left: 600px;
+  pointer-events: all;
+  
+}
+
+
+h1 {
+  text-align: center;
+  color: #18244a;
+  font-size: 24px;
+ margin-block-start: 0.50em;
+ margin-block-end: 0.83em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ font-size: 2rem;
+ font-family: "Burbank Small"
+}
+
+
+.create-account input[type="password"],
+.create-account input[type="text"], 
+.login input[type="password"],
+.login input[type="text"],
+.reset input[type="password"],
+.reset input[type="text"]{
+  width: 250px;
+  height: 50px;
+    margin-block-start: 3.00em;
+    margin-block-end: -2.00em;
+    padding: 15px;
+    border: 1px solid #dddddd;;
+    box-sizing:border-box;
+    font-family: "Burbank Small";
+}
+
+.create-account input[type="submit"],
+.login input[type="submit"],
+.reset input[type="submit"]{
+  margin-block-start: 2.00em;
+  font-size: 14px;
+  font-family: "Burbank Small";
+}
+
+.features input[type="password"],
+.features input[type="text"],
+.features input[type="number"]{
+  width: 250px;
+  height: 50px;
+    padding: 15px;
+  border: 1px solid #dddddd;
+    margin-block-start: -3.00em;
+    margin-block-end: 4.50em;
+    border: 1px solid #dddddd;;
+    box-sizing:border-box;
+    font-family: "Burbank Small";
+}
+
+.features input[type="number"]{
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.features input[type="submit"]{
+  margin-block-start: 2.00em;
+  margin-block-end: 2.00em;
+  font-size: 14px;
+  font-family: "Burbank Small";
+}
+
+.stats input[type="submit"]{
+  margin-block-start: 2.00em;
+  margin-block-end: 2.00em;
+  font-size: 14px;
+  font-family: "Burbank Small";
+}
+
+
+
+.emu {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+    
+  .fade {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  }
+
+  .fade1 {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    }
+
+    .fade2 {
+        -webkit-animation-delay: 0.8s;
+        -moz-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+        }
+    
+
+  @keyframes upward {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+
+  .foo {
+    border-radius: 3px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+  }
+  .blue {
+    background: #00346B;
+      margin-left: 513px;
+      margin-top: -175px;
+  }
+  .purple {
+    background: #5A0093;
+      margin-left: 513px;
+      margin-top: -174px;
+  }
+  .green{
+    background: #009B01;
+    margin-left: 535px;
+    margin-top: -175px;
+  }
+  .brown {
+    background: #8F6004;
+      margin-left: 535px;
+      margin-top: -174px;
+  }
+  .pink {
+    background: #FF3198;
+    margin-left: 558px;
+    margin-top: -175px;
+  }
+  .lightpink {
+    background: #F9686B;
+    margin-left: 558px;
+    margin-top: -174px;
+  }
+  .black {
+    background: #333333;
+    margin-left: 581px;
+    margin-top: -175px;
+  }
+  .darkgreen {
+    background: #006800;
+    margin-left: 581px;
+    margin-top: -174px;
+  }
+  .red {
+    background: #CC0008;
+    margin-left: 604px;
+    margin-top: -175px;
+  }
+  .lightblue {
+    background: #0099CF;
+    margin-left: 604px;
+    margin-top: -174px;
+  }
+  .orange {
+    background: #FC6800;
+    margin-left: 627px;
+    margin-top: -175px;
+  }
+  .lightgreen {
+    background: #89E20E;
+    margin-left: 627px;
+    margin-top: -174px;
+  }
+  .yellow {
+    background: #FFCA00;
+    margin-left: 650px;
+    margin-top: -175px;
+  }
+  .grey {
+    background: #92A2A2;
+    margin-left: 650px;
+    margin-top: -174px;
+  }
+  
+  
+  
