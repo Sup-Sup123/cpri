@@ -13,7 +13,7 @@ const config = {
         site_key: '',
         secret_key: '',
         session_secret: '',
-        domain: 'cpreimagined.com',
+        domain: 'cp-oasis.tk',
     },
 
     utils: {
@@ -29,7 +29,7 @@ const config = {
     
         nodemailer: {
             on: true,
-            host: 'obviousmailserversubdomain.cpreimagined.com',
+            host: 'obviousmailserversubdomain.cp-oasis.tk',
             username: '',
             password: '',
             port: 25,
@@ -58,7 +58,7 @@ const config = {
     /* 3 = admin only */
 
     admins: [104, 125, 60053547, 60053508, 141, 60053545, 60053486, 60053519, 60054737],
-    owners: ['rsakeys', 'GrapeJuice', 'Aesir'],
+    owners: ['ZWrld', 'Sup Sup123', 'Z', 'S'],
 
     features: {
         reset_password: 1,
