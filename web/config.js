@@ -13,7 +13,7 @@ const config = {
         site_key: '',
         secret_key: '',
         session_secret: '',
-        domain: 'cp-oasis.tk',
+        domain: 'cpoasis.me',
     },
 
     utils: {
@@ -28,8 +28,8 @@ const config = {
         },
     
         nodemailer: {
-            on: true,
-            host: 'obviousmailserversubdomain.cp-oasis.tk',
+            on: false,
+            host: 'obviousmailserversubdomain.cpoasis.me',
             username: '',
             password: '',
             port: 25,
